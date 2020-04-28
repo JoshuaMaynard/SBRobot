@@ -68,12 +68,6 @@ void balance()
   motors.setSpeeds(turnSpeed,turnSpeed);
 }
  
-//
-bool balanceUpdateDelayed()
-{
-  return balanceStatus;
-}
- 
 //Returns true/false
 bool getBalance()
 {
